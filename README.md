@@ -4,6 +4,8 @@
 Given x1 normally distributed, we have x𝑡 = ax𝑡−1 + 𝜆 + 𝜀𝑡;  𝑡 = 2,3,...; 
 and: 𝑦𝑡 = 1 if 𝑥𝑡 < −0.5, 2 if − 0.5 ≤ 𝑥𝑡 < 0.5, 3 if 𝑥𝑡 ≥ 0.5
 
- 1) First we want to infer expected values and variances of the x, normal distributed variable, constituting the gaussian hidden model at each step of the chain.
+Thus the gaussian field composed by the xs is discretized through the ys, which is the only variable we have data about.
+
+ 1) First we want to infer expected values and variances of the xs constituting the gaussian hidden model at each step of the chain.
 
  2) We want then to perform an online-learning for infering about the parameter a of the model.
